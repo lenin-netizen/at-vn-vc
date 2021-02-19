@@ -8,4 +8,4 @@
   - name: Search for Next Available IP
     include_role:
       name: find_next_available_ip
-      vars_from: "secrets.yml"
+      vars_from: "secret1.yml"
