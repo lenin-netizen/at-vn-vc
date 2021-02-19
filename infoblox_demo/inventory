@@ -1,5 +1,5 @@
 [grid_manager]
-infoblox1 ansible_host=1.2.3.4
+infoblox1 ansible_host=172.16.155.215
 
 [fortinet:vars]
 ansible_user="{{ infoblox_username }}"
