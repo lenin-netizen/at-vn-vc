@@ -1,6 +1,6 @@
 ---
 - name: Search for Next Available IP
-  hosts: "{{ grid_manager }}"
+  hosts: 172.16.155.215
   connection: local
   gather_facts: false
 
